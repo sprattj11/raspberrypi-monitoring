@@ -18,7 +18,7 @@ It provides real-time system monitoring, network visibility, and device health m
 
 ## 📸 Screenshots
 
-(Insert screenshots of your Grafana dashboard here)
+![Alt text](/dashboard.png?raw=true "Optional Title")
 
 ---
 
