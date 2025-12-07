@@ -72,7 +72,7 @@ Prometheus → http://<your-pi-ip>:9090
 This repository uses placeholder passwords for safety.
 Replace <SET_PASSWORD_HERE> with secure values before running.
 
-🔧 Configuration
+### 🔧 Configuration
 Grafana Datasource (Prometheus)
 
 If not automatically provisioned:
@@ -83,14 +83,11 @@ Go to Configuration → Data Sources
 
 Add Prometheus
 
-URL:
-
-http://prometheus:9090
-
+URL: http://prometheus:9090
 
 Click Save & Test
 
-Prometheus Scrape Config
+### Prometheus Scrape Config
 
 Included in prometheus.yml:
 
@@ -99,7 +96,7 @@ scrape_configs:
     static_configs:
       - targets: ['node-exporter:9100']
 
-🔁 Automatic Startup on Reboot
+### 🔁 Automatic Startup on Reboot
 
 Services in docker-compose.yml use:
 
@@ -108,7 +105,7 @@ restart: unless-stopped
 
 This ensures Grafana, Prometheus, and Node Exporter automatically start whenever the Raspberry Pi reboots.
 
-🧠 Why I Built This
+### 🧠 Why I Built This
 
 I created this project to gain hands-on experience with:
 
