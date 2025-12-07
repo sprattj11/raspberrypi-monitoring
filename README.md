@@ -18,8 +18,7 @@ It provides real-time system monitoring, network visibility, and device health m
 
 ## 📸 Screenshots
 
-![Alt text](/dashboard.png?raw=true "Optional Title")
--fvnjfs
+![Alt text](/dashboard_pic.png?raw=true "Optional Title")
 
 ---
 
