@@ -54,15 +54,16 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 sudo usermod -aG docker $USER
 
-# Log out and back in.
+ Log out and back in.
 
-2. Clone the Repository
+### 2. Clone the Repository
+
 git clone https://github.com/<your-username>/raspberrypi-monitoring.git
 cd raspberrypi-monitoring
 
-3. Start the Monitoring Stack
-docker compose up -d
+### 3. Start the Monitoring Stack
 
+docker compose up -d
 
 Grafana → http://<your-pi-ip>:3000
 Prometheus → http://<your-pi-ip>:9090
