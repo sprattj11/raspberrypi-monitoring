@@ -36,10 +36,15 @@ It provides real-time system monitoring, network visibility, and device health m
 
 .
 ├── docker-compose.yml
+
 ├── prometheus.yml
+
 ├── provisioning/
+
 │ ├── dashboards/
+
 │ │ └── example-dashboard.json
+
 └── README.md
 
 ---
